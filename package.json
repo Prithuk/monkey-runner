@@ -1,0 +1,31 @@
+{
+  "name": "swayambhu-monkey-chase",
+  "version": "1.0.0",
+  "description": "Swayambhu Monkey Chase for iOS and Android",
+  "main": "index.js",
+  "scripts": {
+    "start": "npx --yes serve www",
+    "sync": "cap sync",
+    "android": "cap sync android && cap open android",
+    "ios": "cap sync ios && cap open ios",
+    "assets": "capacitor-assets generate --iconBackgroundColor \"#6e1a14\" --splashBackgroundColor \"#1a0d08\""
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@capacitor/android": "^8.5.2",
+    "@capacitor/app": "^8.1.2",
+    "@capacitor/cli": "^8.5.2",
+    "@capacitor/core": "^8.5.2",
+    "@capacitor/haptics": "^8.0.2",
+    "@capacitor/ios": "^8.5.2",
+    "@capacitor/splash-screen": "^8.0.2",
+    "@capacitor/status-bar": "^8.0.4",
+    "@fontsource/mukta": "^5.3.0",
+    "@fontsource/yatra-one": "^5.3.0"
+  },
+  "devDependencies": {
+    "@capacitor/assets": "^3.0.5"
+  }
+}

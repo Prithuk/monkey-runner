@@ -1,0 +1,12 @@
+{
+  "appId": "com.swayambhu.monkeychase",
+  "appName": "Swayambhu Monkey Chase",
+  "webDir": "www",
+  "backgroundColor": "#1a0d08",
+  "android": { "backgroundColor": "#1a0d08", "allowMixedContent": false },
+  "ios": { "backgroundColor": "#1a0d08", "contentInset": "never", "scrollEnabled": false },
+  "plugins": {
+    "SplashScreen": { "launchShowDuration": 1200, "launchAutoHide": true, "backgroundColor": "#1a0d08", "showSpinner": false },
+    "StatusBar": { "overlaysWebView": true, "style": "DARK" }
+  }
+}
